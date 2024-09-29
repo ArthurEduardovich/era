@@ -1,0 +1,88 @@
+site_name: ЭРА:ИСКРА ДОК
+site_url: https://github.com/ArthurEduardovich/era.git
+
+theme:
+  name: material
+  font: false
+  language: ru
+  palette:
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на темную тему
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: white
+      toggle:
+        icon: material/weather-night
+        name: Переключить на светлую тему
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune 
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - navigation.footer
+
+  favicon: assets/favicon.png
+  icon:
+    logo: material/book-open-page-variant-outline
+  custom_dir: overrides
+
+extra:
+  search:
+    language: ru
+  generator: false
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+plugins:
+  - search:
+      lang: ru
+  - minify:
+      minify_html: true
+
+extra_css:  
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+copyright: ООО Газпромнефть-Цифровые Решения 2024 | Команда ЭРА:ИСКРА
+
+nav:
+  - Главная: index.md
+  - Документация: documentation/index.md
+  - Обновления: updates.md
+  - Блог команды: blog/index.md

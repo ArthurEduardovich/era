@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://arthureduardovich.github.io/era.docs.test/</loc>
+         <lastmod>2024-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://arthureduardovich.github.io/era.docs.test/404/</loc>
+         <lastmod>2024-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://arthureduardovich.github.io/era.docs.test/updates/</loc>
+         <lastmod>2024-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://arthureduardovich.github.io/era.docs.test/blog/</loc>
+         <lastmod>2024-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://arthureduardovich.github.io/era.docs.test/documentation/</loc>
+         <lastmod>2024-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
